@@ -1,0 +1,7 @@
+TLC2 Version 2.19 of 08 August 2024 (rev: 5a47802)
+Running breadth-first search Model-Checking with 4 workers on 24 cores...
+Model checking completed. No error has been found.
+States generated: 18050
+Distinct states: 65
+Depth of state graph: 11
+All 8 temporal properties checked: PASSED
