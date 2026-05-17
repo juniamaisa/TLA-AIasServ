@@ -1,7 +1,7 @@
 # TLA-AIasServ
 
 # NOMS 2026: Proposition of 6G RAN KPI as a Cognitive Integrity metric for a Protocol-Based AI Lifecycle Framework
-An work about *NWDAF-LifeCycle*
+An work about *NWDAF-AI-LifeCycle*
 
 
 # NWDAF AI-as-a-Service — Formal Specification (TLA+)
@@ -9,7 +9,7 @@ An work about *NWDAF-LifeCycle*
 This repository contains the **complete, executable TLA+ model** that accompanies the short paper
 
 > **“Proposition of 6G RAN KPI as a Cognitive Integrity metric for a Protocol-Based AI Lifecycle Framework”**  
-> (submitted to IEEE NOMS 2026).
+> (IEEE NOMS 2026).
 
 The model formalises the two service-based interfaces proposed in the paper—**MTCP** (Model Training & Creation Protocol) and **MEP** (Model Execution Protocol)—and demonstrates, via the **TLC** model checker, that they satisfy the key safety and liveness requirements claimed in the manuscript.
 
@@ -82,7 +82,7 @@ The spec models time as discrete ticks and encodes deadlines via constants in `M
 ├── run_output.txt          # Full TLC output (Windows log; UTF-16)
 ├── run_output-infinity.txt # Additional run log (larger/longer execution)
 
-
+```
 
 
 ---
@@ -98,6 +98,6 @@ timeouts, or authentication scopes as described in the paper.
 *Replace `juniamaisa` with your GitHub handle before committing.*
 
 
-If you use this artefact, please cite our CNSM 2025 short paper:
+If you use this artefact, please cite our IEEE NOMS 2026 paper:
 @inproceedings{...}
 
